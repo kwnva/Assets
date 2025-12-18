@@ -1,0 +1,52 @@
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/*.ttf"
+  [headers.values]
+    Access-Control-Allow-Origin = "https://checklist.plus"
+
+[[headers]]
+  for = "/*.woff"
+  [headers.values]
+    Access-Control-Allow-Origin = "https://checklist.plus"
+
+[[headers]]
+  for = "/*.woff2"
+  [headers.values]
+    Access-Control-Allow-Origin = "https://checklist.plus"
+
+[[headers]]
+  for = "/*.otf"
+  [headers.values]
+    Access-Control-Allow-Origin = "https://checklist.plus"
+
+[[headers]]
+  for = "/*.webp"
+  [headers.values]
+    Access-Control-Allow-Origin = "https://checklist.plus"
+
+[[headers]]
+  for = "/*.png"
+  [headers.values]
+    Access-Control-Allow-Origin = "https://checklist.plus"
+
+[[headers]]
+  for = "/*.jpg"
+  [headers.values]
+    Access-Control-Allow-Origin = "https://checklist.plus"
+
+[[headers]]
+  for = "/*.jpeg"
+  [headers.values]
+    Access-Control-Allow-Origin = "https://checklist.plus"
+
+[[headers]]
+  for = "/*.gif"
+  [headers.values]
+    Access-Control-Allow-Origin = "https://checklist.plus"
+
+[[headers]]
+  for = "/*.svg"
+  [headers.values]
+    Access-Control-Allow-Origin = "https://checklist.plus"
